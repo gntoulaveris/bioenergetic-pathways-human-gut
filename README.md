@@ -21,7 +21,7 @@ All data originated from the MG-Rast database. The metagenomic data were derived
 
 <figure>
   <p align="center">
-    <img src="training_set_faces.png" alt="Faces" width="1000">
+    <img src="datasets_analyzed.png" alt="Datasets" width="1000">
   </p>
   <figcaption>Figure 1. Datasets used in the analysis.</figcaption>
 </figure>
