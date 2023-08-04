@@ -34,13 +34,13 @@ This work was an extension of a previously established pipeline that assigned to
 The following figures depict the prevalence of each pathway in the analyzed datasets. The prevalent pathway in all of the studied datasets was the He pathway. The more sequencing reads or samples a dataset had, the more a decrease in the He pathway and an enrichment of the others began to appear (Europe, Inuit, Malawi, Egypt_children, US_children longTermAntibiotics, Obesity). Perhaps it is of significance the fact that in the Hazda dataset those changes had already begun to appear under a smaller number of seq reads. There also appeared to be a pattern in all gut microbiome pathways under which they shared similar enrichment, with most differences appearing between healthy and unhealthy individuals. Unhealthy individuals appeared to have slightly less enrichment in the AR, FR and Me pathways. Furthermore, the Cancer dataset had the strongest presence of the SR pathway, while Obesity dataset had the strongest presence of the SO pathway, while it appears that prolonged use of antibiotics enriches the AP pathway (and perhaps the OP pathway as well).
 
 <p align="center">
-  <img src="pathways_prevalence.png" alt="Datasets" width="1000">
+  <img src="pathways_prevalence.png" alt="Datasets" width="500">
   <br>
   <em>Figure 2. Bioenergetic pathways prevalence in each dataset.</em>
 </p>
 
 <p align="center">
-  <img src="pathways_reads.png" alt="Datasets" width="1000">
+  <img src="pathways_reads.png" alt="Datasets" width="500">
   <br>
   <em>Figure 3. Bioenergetic pathways prevalence in each dataset (another visualization).</em>
 </p>
