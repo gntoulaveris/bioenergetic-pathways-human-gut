@@ -17,13 +17,30 @@ In recent years, the human gut microbiome's role in the overall health of the in
 * Sulfate reduction (SR)
 
 # Data
-All data originated from the MG-Rast database. The metagenomic data were derived from either Whole Genome Sequencing (WGS) or Amplicon-based sequencing. The analyzed datasets are presented in the following figure. 
+All data originated from the MG-Rast database. The metagenomic data were derived from either Whole Genome Sequencing (WGS) or Amplicon-based sequencing. The analyzed datasets are presented in the following figure. They were of three loosely distinct categories. The first category included datasets of healthy individuals of the "Western" culture (eg Americans). The second category included datasets of healthy individuals of completely different environment or culture (eg Hazda populations) and the third one included datasets of individuals with some health issue (eg cancer or prolonged use of antibiotics).
 
-<figure>
-  <p align="center">
-    <img src="datasets_analyzed.png" alt="Datasets" width="1000">
-  </p>
-  <figcaption style="text-align: center; font-style: italic;">Figure 1. Datasets used in the analysis.</figcaption>
-</figure>
+<p align="center">
+  <img src="datasets_analyzed.png" alt="Datasets" width="1000">
+  <br>
+  <em>Figure 1. Datasets used in the analysis.</em>
+</p>
 
+# Pipeline
+This work was an extension of a previously established pipeline that assigned to each bacteria species presented in each dataset the bioenergetic pathways to which this species normally contributes. Utilizing the results of that pipeline, Microsoft Excel and R were used to visualize and explore the pathways and species prevalence in each dataset.
 
+# Results
+
+## Bioenergetic pathways' prevalence in each dataset
+The following figures depict the prevalence of each pathway in the analyzed datasets. The prevalent pathway in all of the studied datasets was the He pathway. The more sequencing reads or samples a dataset had, the more a decrease in the He pathway and an enrichment of the others began to appear (Europe, Inuit, Malawi, Egypt_children, US_children longTermAntibiotics, Obesity). Perhaps it is of significance the fact that in the Hazda dataset those changes had already begun to appear under a smaller number of seq reads. There also appeared to be a pattern in all gut microbiome pathways under which they shared similar enrichment, with most differences appearing between healthy and unhealthy individuals. Unhealthy individuals appeared to have slightly less enrichment in the AR, FR and Me pathways. Furthermore, the Cancer dataset had the strongest presence of the SR pathway, while Obesity dataset had the strongest presence of the SO pathway, while it appears that prolonged use of antibiotics enriches the AP pathway (and perhaps the OP pathway as well).
+
+<p align="center">
+  <img src="pathways_prevalence.png" alt="Datasets" width="1000">
+  <br>
+  <em>Figure 2. Bioenergetic pathways prevalence in each dataset.</em>
+</p>
+
+<p align="center">
+  <img src="pathways_reads.png" alt="Datasets" width="1000">
+  <br>
+  <em>Figure 3. Bioenergetic pathways prevalence in each dataset (another visualization).</em>
+</p>
