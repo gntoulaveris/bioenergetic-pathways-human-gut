@@ -34,13 +34,35 @@ This work was an extension of a previously established pipeline that assigned to
 The following figures depict the prevalence of each pathway in the analyzed datasets. The prevalent pathway in all of the studied datasets was the He pathway. The more sequencing reads or samples a dataset had, the more a decrease in the He pathway and an enrichment of the others began to appear (Europe, Inuit, Malawi, Egypt_children, US_children longTermAntibiotics, Obesity). Perhaps it is of significance the fact that in the Hazda dataset those changes had already begun to appear under a smaller number of seq reads. There also appeared to be a pattern in all gut microbiome pathways under which they shared similar enrichment, with most differences appearing between healthy and unhealthy individuals. Unhealthy individuals appeared to have slightly less enrichment in the AR, FR and Me pathways. Furthermore, the Cancer dataset had the strongest presence of the SR pathway, while Obesity dataset had the strongest presence of the SO pathway, while it appears that prolonged use of antibiotics enriches the AP pathway (and perhaps the OP pathway as well).
 
 <p align="center">
-  <img src="pathways_prevalence.png" alt="Datasets" width="600">
+  <img src="pathways_prevalence.png" alt="Pathways" width="600">
   <br>
   <em>Figure 2. Bioenergetic pathways prevalence in each dataset.</em>
 </p>
 
 <p align="center">
-  <img src="pathways_reads.png" alt="Datasets" width="800">
+  <img src="pathways_reads.png" alt="Pathways (2)" width="800">
   <br>
   <em>Figure 3. Bioenergetic pathways prevalence in each dataset (another visualization).</em>
 </p>
+
+## Common appearences of bacteria species between the datasets
+The appearence of prevalent bacteria species was also explored, as seen in the following figure where 20 of the most common species between the datasets appear, in regards to the percentage of datasets they appear to. 
+
+<p align="center">
+  <img src="common_species_appearences.png" alt="Common bacteria species" width="800">
+  <br>
+  <em>Figure 4. Appearence of prevalent bacteria species across the datasets.</em>
+</p>
+
+## Magnitude of appearence of bacteria species
+The number of times a bacteria species appeared in each dataset was also explored for some of the most common species or those that are known to be linked with specific diseases. An example can be seen in the following figure.
+
+<p align="center">
+  <img src="species_magnitude.png" alt="Magnitude of species appearence" width="800">
+  <br>
+  <em>Figure 5. Magnitude of appearence of bacteria species and their respective bioenergetic pathways.</em>
+</p>
+
+
+# Future work 
+The current study explored a small number of datasets that were provided in the database. Future research could involve the exploration of more datasets. More datasets of unhealthy individuals could also be used to explore any bioenergetic differences occuring in comparison to healthy individuals. Finally, it would be beneficial to explore datasets of individuals bearing gut-specific diseases (eg IBD) where the bioenergetic differences would likely be more pronounced and thus offer insights of greater significance.
