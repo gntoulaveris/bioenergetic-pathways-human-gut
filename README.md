@@ -40,7 +40,7 @@ The following figures depict the prevalence of each pathway in the analyzed data
 </p>
 
 <p align="center">
-  <img src="pathways_reads.png" alt="Datasets" width="600">
+  <img src="pathways_reads.png" alt="Datasets" width="800">
   <br>
   <em>Figure 3. Bioenergetic pathways prevalence in each dataset (another visualization).</em>
 </p>
